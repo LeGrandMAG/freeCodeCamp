@@ -1,0 +1,4 @@
+let theEnding = " I want to be free"
+let storyRegex = /story$/
+const x = storyRegex.test(theEnding)
+console.log(x)
