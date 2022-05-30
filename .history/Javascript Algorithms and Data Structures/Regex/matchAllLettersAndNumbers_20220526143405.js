@@ -1,0 +1,1 @@
+let longHand = /[A-Za-z]
