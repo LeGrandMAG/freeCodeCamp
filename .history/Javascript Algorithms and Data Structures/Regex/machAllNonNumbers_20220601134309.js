@@ -2,5 +2,6 @@ let movieName = "2001: A Space Odyssey";
 let noNumRegex = /\D/g;
 
 
-
-console.log(movieName.match(noNumRegex).length)
+let x = 0;
+for (i in movieName.match(noNumRegex)){
+]

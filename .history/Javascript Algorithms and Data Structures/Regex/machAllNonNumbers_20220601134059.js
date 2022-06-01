@@ -1,6 +1,7 @@
 let movieName = "2001: A Space Odyssey";
 let noNumRegex = /\D/g;
 
+lol = []
+while ){
 
-
-console.log(movieName.match(noNumRegex).length)
+}

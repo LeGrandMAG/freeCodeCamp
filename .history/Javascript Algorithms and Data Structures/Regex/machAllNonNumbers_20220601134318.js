@@ -3,4 +3,4 @@ let noNumRegex = /\D/g;
 
 
 
-console.log(movieName.match(noNumRegex).length)
+movieName.match(noNumRegex).lenght 
