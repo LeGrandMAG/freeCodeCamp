@@ -1,4 +1,4 @@
 import {friend} from './addItems.js';
 
-friend.shift()
+friend.pop()
 console.log(friend)

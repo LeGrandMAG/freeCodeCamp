@@ -5,4 +5,4 @@ friend.push("Gabriel")
 friend.unshift("Misato")
 
 
-export { friend }
+export friend }
