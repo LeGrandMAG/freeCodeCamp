@@ -13,8 +13,12 @@ this.toggleVisibility = this.toggleVisibility.bind(this)
   
   // Change code below this line
 toggleVisibility(){
-  this.setState({
-    visibility: true
+  this.setState(function(state)
+  { if(state.visibility===true){
+    return {visibility:false}
+  }else{
+    return {visibility:true}
+  }
   })
   }
   // Change code above this line
